@@ -1,0 +1,18 @@
+TEMPAT GAMBAR HERO SIRADA BBWS
+================================
+
+1. Taruh gambar Anda di folder ini, misalnya:
+
+       assets/hero-sirada.png
+
+2. Buka js/auth.js, cari baris dengan komentar:
+
+       // Tempat gambar hero: setelah gambar siap, ganti src di bawah dengan "assets/hero-sirada.png".
+
+3. Ganti nilai src pada tag <img class="hero__image"> dari placeholder data URI menjadi:
+
+       src="assets/hero-sirada.png"
+
+Format yang didukung: png, jpg, jpeg, webp.
+Gambar tampil di belakang kartu ilustrasi dashboard halaman Beranda.
+Ukuran disarankan: 1200 x 1000 px (rasio ~1:1), maksimal sekitar 500 KB.
